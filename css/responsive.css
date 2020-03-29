@@ -1,69 +1,101 @@
-@media all and (max-width: 575px){
+@media all and (max-width: 1199px){
+    .banner{
+        height: 100vh;
+    }
     .gallery .g_pics{
-        grid-template-columns: auto;
-        grid-gap: 10px 0;
-        justify-content: center;
+        grid-gap: 30px 30px;
+    }
+    .city .image:before{
+        width: 78%;
+        bottom: -8%;
+        top: 6%;
+        left: 13%;
+    }
+    .city .cnt h3{
+        padding-top: 5%;
+    }
+    .city .cnt button{
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 991px){
+    .navigation .logo img{
+        width: 80%;
     }
     .navigation .menubar ul li{
-        margin-right: 10px;
+        margin-right: 15px;
     }
     .navigation .menubar ul li a{
-        font-size: 14px;
+        font-size: 16px;
     }
-    .banner .overlay .content button{
-        padding: 12px 9px;
-        font-size: 10px;
-    }
-    .gallery .heading .option1{
-        display: block;
-        width: 100%;
-        margin: auto;
-            margin-top: auto;
-        margin-top: 10%;
-    }
-    .gallery .heading .option2{
-        display: block;
-        width: 100%;
-        margin: auto;
-            margin-top: auto;
-        margin-top: 10%;
+    .navigation .menubar ul li a > i{
+        font-size: 16px;
     }
     .banner .overlay .content h2{
-        font-size: 30px;
-        margin-bottom: 5%;
-    }
-    .banner .overlay .content h4{
-        font-size: 11px;
+        font-size: 65px;
     }
     .banner .overlay .content h3{
-        font-size: 29px;
+        font-size: 65px;
     }
-    .gallery{
-        margin-top: 40px;
+    .banner .overlay .content h4{
+        font-size: 15px;
+    }
+    .banner .overlay .content button{
+        padding: 15px 15px;
+    }
+    .gallery .g_pics{
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
     }
     .gallery .heading form i{
-        top: 61%;
-        right: 19%;
+        right: 17%;
     }
-    .sign .text h2{
-        font-size: 30px;
+    .gallery .g_pics .pic_item{
+        height: 380px;
+    }
+    .gallery .g_pics .pic_item .img_item{
+        height: 160px;
+    }
+    .city h2{
+        padding-top: 20px;
+    }
+    .city .cnt h3{
+        font-size: 26px;
+        padding-top: 5%;
+    }
+    .city .cnt p{
+        padding-right: 30px;
+        margin: 15px 0;
+        line-height: 20px;
+    }
+    .city .cnt button{
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+    .city .image img{
+        width: 80%;
+    }
+    .city .image:before {
+        width: 77%;
+        bottom: -8%;
+        top: 6%;
+        left: 13%;
     }
     .sign{
-        margin-top: 40px;
-        height: 280px;
+        margin-top: 60px;
+    }
+    .sign .text h2{
+        font-size: 60px;
     }
     .sign .text button{
-        height: 30px;
+        width: 110px;
+        height: 40px;
     }
-    .footer{
-        height: 100px;
-    }
-    .footer .contents img{
-        width: 4%;
+    .sign .text p{
+        margin-top: 25px;
     }
     .footer .contents p{
-        font-size: 12px;
-        margin-top: 0px;
+        font-size: 16px;
     }
 }
 @media all and (max-width: 767px){
@@ -201,109 +233,74 @@
         margin-top: 5px;
     }
 }
-@media all and (max-width: 991px){
-    .navigation .logo img{
-        width: 80%;
+@media all and (max-width: 575px){
+    .gallery .g_pics{
+        grid-template-columns: auto;
+        grid-gap: 10px 0;
+        justify-content: center;
     }
     .navigation .menubar ul li{
-        margin-right: 15px;
+        margin-right: 10px;
     }
     .navigation .menubar ul li a{
-        font-size: 16px;
-    }
-    .navigation .menubar ul li a > i{
-        font-size: 16px;
-    }
-    .banner .overlay .content h2{
-        font-size: 65px;
-    }
-    .banner .overlay .content h3{
-        font-size: 65px;
-    }
-    .banner .overlay .content h4{
-        font-size: 15px;
+        font-size: 14px;
     }
     .banner .overlay .content button{
-        padding: 15px 15px;
+        padding: 12px 9px;
+        font-size: 10px;
     }
-    .gallery .g_pics{
-        grid-template-columns: auto auto;
-        grid-gap: 20px;
+    .gallery .heading .option1{
+        display: block;
+        width: 100%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 10%;
+    }
+    .gallery .heading .option2{
+        display: block;
+        width: 100%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 10%;
+    }
+    .banner .overlay .content h2{
+        font-size: 30px;
+        margin-bottom: 5%;
+    }
+    .banner .overlay .content h4{
+        font-size: 11px;
+    }
+    .banner .overlay .content h3{
+        font-size: 29px;
+    }
+    .gallery{
+        margin-top: 40px;
     }
     .gallery .heading form i{
-        right: 17%;
-    }
-    .gallery .g_pics .pic_item{
-        height: 380px;
-    }
-    .gallery .g_pics .pic_item .img_item{
-        height: 160px;
-    }
-    .city h2{
-        padding-top: 20px;
-    }
-    .city .cnt h3{
-        font-size: 26px;
-        padding-top: 5%;
-    }
-    .city .cnt p{
-        padding-right: 30px;
-        margin: 15px 0;
-        line-height: 20px;
-    }
-    .city .cnt button{
-        padding: 10px 20px;
-        margin-top: 0px;
-    }
-    .city .image img{
-        width: 80%;
-    }
-    .city .image:before {
-        width: 77%;
-        bottom: -8%;
-        top: 6%;
-        left: 13%;
-    }
-    .sign{
-        margin-top: 60px;
+        top: 61%;
+        right: 19%;
     }
     .sign .text h2{
-        font-size: 60px;
+        font-size: 30px;
+    }
+    .sign{
+        margin-top: 40px;
+        height: 280px;
     }
     .sign .text button{
-        width: 110px;
-        height: 40px;
+        height: 30px;
     }
-    .sign .text p{
-        margin-top: 25px;
+    .footer{
+        height: 100px;
+    }
+    .footer .contents img{
+        width: 4%;
     }
     .footer .contents p{
-        font-size: 16px;
+        font-size: 12px;
+        margin-top: 0px;
     }
 }
-@media all and (max-width: 1199px){
-    .banner{
-        height: 100vh;
-    }
-    .gallery .g_pics{
-        grid-gap: 30px 30px;
-    }
-    .city .image:before{
-        width: 78%;
-        bottom: -8%;
-        top: 6%;
-        left: 13%;
-    }
-    .city .cnt h3{
-        padding-top: 5%;
-    }
-    .city .cnt button{
-        margin-top: 20px;
-    }
-}
-
-
-
 
 
 
