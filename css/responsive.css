@@ -1,6 +1,6 @@
 @media all and (max-width: 575px){
     .gallery .g_pics{
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
         grid-gap: 10px 0;
         justify-content: center;
     }
