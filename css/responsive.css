@@ -1,5 +1,4 @@
-
-@media (max-width: 575.98px){
+@media all and (max-width: 575px){
     .gallery .g_pics{
         grid-template-columns: auto;
         grid-gap: 10px 0;
@@ -67,7 +66,7 @@
         margin-top: 0px;
     }
 }
-@media (min-width: 576px) and (max-width: 767.98px){
+@media all and (max-width: 767px){
     .navigation .menu{
         display: block;
         margin: auto;
@@ -202,7 +201,7 @@
         margin-top: 5px;
     }
 }
-@media (min-width: 768px) and (max-width: 991.98px){
+@media all and (max-width: 991px){
     .navigation .logo img{
         width: 80%;
     }
@@ -282,7 +281,7 @@
         font-size: 16px;
     }
 }
-@media (min-width: 992px) and (max-width: 1199.98px){
+@media all and (max-width: 1199px){
     .banner{
         height: 100vh;
     }
@@ -300,11 +299,6 @@
     }
     .city .cnt button{
         margin-top: 20px;
-    }
-}
-@media (min-width: 1200px) {
-    .banner {
-        height: 100vh;
     }
 }
 
