@@ -116,7 +116,7 @@
         right: 18%;
     }
     .gallery .g_pics{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         grid-gap: 20px;
     }
     .gallery .g_pics .pic_item{
