@@ -88,7 +88,7 @@
         padding-top: 5%;
     }
     .city .cnt p{
-        padding-right: 30px;
+        padding-right: 0px;
         margin: 15px 0;
         line-height: 25px;
     }
@@ -235,6 +235,9 @@
         display: block;
         width: 100%;
     }
+    .city .cnt p{
+        padding-right: 0px;
+    }
     .city .cnt button{
         margin: auto;
         display: block;
@@ -358,6 +361,9 @@
     }
     .sign .text button{
         height: 30px;
+    }
+    .city .cnt p{
+        padding-right: 0px;
     }
     .city .image:before{
         width: 61%;
