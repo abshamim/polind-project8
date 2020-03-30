@@ -1,68 +1,75 @@
+
 @media all and (max-width: 575px){
     .gallery .g_pics{
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
         grid-gap: 10px 0;
         justify-content: center;
     }
     .navigation .menubar ul li{
-        margin-right: 10px;
+        margin-right: 10px !important;
     }
     .navigation .menubar ul li a{
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .banner .overlay .content button{
-        padding: 12px 9px;
-        font-size: 10px;
+        padding: 12px 9px !important;
+        font-size: 10px !important;
     }
     .gallery .heading .option1{
-        display: block;
-        width: 100%;
-        margin: auto;
-            margin-top: auto;
-        margin-top: 10%;
+        display: block !important;
+        width: 100% !important;
+        margin: auto !important;
+            margin-top: auto !important;
+        margin-top: 10% !important;
     }
     .gallery .heading .option2{
-        display: block;
-        width: 100%;
-        margin: auto;
-            margin-top: auto;
-        margin-top: 10%;
+        display: block !important;
+        width: 100% !important;
+        margin: auto !important;
+        margin-top: auto !important;
+        margin-top: 10% !important;
     }
     .banner .overlay .content h2{
-        font-size: 30px;
-        margin-bottom: 5%;
+        font-size: 30px !important;
+        margin-bottom: 5% !important;
     }
     .banner .overlay .content h4{
-        font-size: 11px;
+        font-size: 11px !important;
     }
     .banner .overlay .content h3{
-        font-size: 29px;
+        font-size: 29px !important;
     }
     .gallery{
-        margin-top: 40px;
+        margin-top: 40px !important;
     }
     .gallery .heading form i{
-        top: 61%;
-        right: 19%;
+        top: 61% !important;
+        right: 19% !important;
     }
     .sign .text h2{
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .sign{
-        margin-top: 40px;
-        height: 280px;
+        margin-top: 40px !important;
+        height: 280px !important;
     }
     .sign .text button{
-        height: 30px;
+        height: 30px !important;
+    }
+    .city .image:before{
+        width: 81% !important;
+        bottom: -9% !important;
+        top: 6% !important;
+        left: 3% !important;
     }
     .footer{
-        height: 100px;
+        height: 100px !important;
     }
     .footer .contents img{
-        width: 4%;
+        width: 4% !important;
     }
     .footer .contents p{
-        font-size: 12px;
+        font-size: 12px !important;
         margin-top: 0px;
     }
 }
@@ -118,6 +125,7 @@
     .gallery .g_pics{
         grid-template-columns: auto;
         grid-gap: 20px;
+        justify-content: center;
     }
     .gallery .g_pics .pic_item{
         height: 340px;
@@ -249,17 +257,28 @@
     .city .cnt p{
         padding-right: 30px;
         margin: 15px 0;
-        line-height: 20px;
+        line-height: 25px;
+    }
+    .city .cnt{
+        display: block;
+        width: 100%;
     }
     .city .cnt button{
-        padding: 10px 20px;
-        margin-top: 0px;
+        margin: auto;
+        display: block;
+        margin-top: 35px;
+    }
+    .city .image{
+        display: block;
+        width: 100%;
+        margin: 7% auto;
+        text-align: center;
     }
     .city .image img{
-        width: 80%;
+        width: 65%;
     }
     .city .image:before {
-        width: 77%;
+        width: 66%;
         bottom: -8%;
         top: 6%;
         left: 13%;
