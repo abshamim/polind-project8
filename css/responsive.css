@@ -352,9 +352,6 @@
     .gallery .heading form input[placeholder]{
         font-size: 14px;
     }
-    .gallery .heading .option1 a:hover,.gallery .heading .option2 a:hover{
-        display: none;
-    }
     .sign .text h2{
         font-size: 30px;
     }
