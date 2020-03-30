@@ -1,79 +1,139 @@
 
-@media all and (max-width: 575px){
+@media only screen and (max-width: 1199px){
+    .banner{
+        height: 100vh;
+    }
     .gallery .g_pics{
-        grid-template-columns: auto !important;
-        grid-gap: 10px 0;
-        justify-content: center;
-    }
-    .navigation .menubar ul li{
-        margin-right: 10px !important;
-    }
-    .navigation .menubar ul li a{
-        font-size: 14px !important;
-    }
-    .banner .overlay .content button{
-        padding: 12px 9px !important;
-        font-size: 10px !important;
-    }
-    .gallery .heading .option1{
-        display: block !important;
-        width: 100% !important;
-        margin: auto !important;
-            margin-top: auto !important;
-        margin-top: 10% !important;
-    }
-    .gallery .heading .option2{
-        display: block !important;
-        width: 100% !important;
-        margin: auto !important;
-        margin-top: auto !important;
-        margin-top: 10% !important;
-    }
-    .banner .overlay .content h2{
-        font-size: 30px !important;
-        margin-bottom: 5% !important;
-    }
-    .banner .overlay .content h4{
-        font-size: 11px !important;
-    }
-    .banner .overlay .content h3{
-        font-size: 29px !important;
-    }
-    .gallery{
-        margin-top: 40px !important;
-    }
-    .gallery .heading form i{
-        top: 61% !important;
-        right: 19% !important;
-    }
-    .sign .text h2{
-        font-size: 30px !important;
-    }
-    .sign{
-        margin-top: 40px !important;
-        height: 280px !important;
-    }
-    .sign .text button{
-        height: 30px !important;
+        grid-gap: 30px 30px;
     }
     .city .image:before{
-        width: 68% !important;
-        bottom: -12% !important;
-        top: 8% !important;
-        left: 10% !important;
+        width: 78%;
+        bottom: -8%;
+        top: 6%;
+        left: 13%;
     }
-    .footer{
-        height: 100px !important;
+    .gallery .g_pics .pic_item button{
+        margin-top: 10%;
     }
-    .footer .contents img{
-        width: 4% !important;
+    .gallery .g_pics .pic_item p{
+        margin-top: 2%;
     }
-    .footer .contents p{
-        font-size: 12px !important;
-        margin-top: 0px;
+    .city .cnt h3{
+        padding-top: 5%;
+    }
+    .city .cnt button{
+        margin-top: 20px;
     }
 }
-@media all and (max-width: 767px){
+@media only screen and (max-width: 991px){
+    .navigation .logo img{
+        width: 80%;
+    }
+    .navigation .menubar ul li{
+        margin-right: 15px;
+    }
+    .navigation .menubar ul li a{
+        font-size: 16px;
+    }
+    .navigation .menubar ul li a > i{
+        font-size: 16px;
+    }
+    .banner{
+        height: 70vh;
+    }
+    .banner .overlay .content h2{
+        font-size: 60px;
+    }
+    .banner .overlay .content h3{
+        font-size: 60px;
+    }
+    .banner .overlay .content h4{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    .banner .overlay .content button{
+        padding: 15px 15px;
+    }
+    .gallery .g_pics{
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+    .gallery .heading form i{
+        right: 18%;
+    }
+    .gallery .g_pics .pic_item{
+        height: 380px;
+    }
+    .gallery .g_pics .pic_item p{
+        font-size: 14px;
+        margin-top: 2%;
+    }
+    .gallery .g_pics .pic_item button{
+        width: 115px;
+        height: 35px;
+        line-height: 30px;
+        font-size: 12px;
+        margin-top: 10%;
+        background: #ffc74a;
+        color: #666;
+    }
+    .gallery .g_pics .pic_item .img_item{
+        height: 160px;
+    }
+    .city h2{
+        padding-top: 20px;
+    }
+    .city .cnt h3{
+        font-size: 26px;
+        padding-top: 5%;
+    }
+    .city .cnt p{
+        padding-right: 30px;
+        margin: 15px 0;
+        line-height: 25px;
+    }
+    .city .cnt{
+        display: block;
+        width: 100%;
+    }
+    .city .cnt button{
+        margin: auto;
+        display: block;
+        margin-top: 35px;
+    }
+    .city .image{
+        display: block;
+        width: 100%;
+        margin: 7% auto;
+        text-align: center;
+    }
+    .city .image img{
+        width: 65%;
+    }
+    .city .image:before{
+        width: 63%;
+        bottom: -7%;
+        top: 6%;
+        left: 13%;
+    }
+    .sign{
+        margin-top: 60px;
+    }
+    .sign .text h2{
+        font-size: 60px;
+    }
+    .sign .text button{
+        width: 110px;
+        height: 40px;
+    }
+    .sign .text p{
+        margin-top: 25px;
+    }
+    .footer .contents p{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 767px){
     .navigation .menu{
         display: block;
         margin: auto;
@@ -96,16 +156,20 @@
         width: 70%;
     }
     .banner .overlay .content h2{
-        font-size: 45px;
+        font-size: 40px;
     }
     .banner .overlay .content h3{
-        font-size: 45px;
+        font-size: 40px;
     }
     .banner .overlay .content h4{
         font-size: 14px;
+        margin: 5px 0;
+    }
+    .banner .overlay .content{
+        top: 60%;
     }
     .banner .overlay .content button{
-        padding: 12px 10px;
+        padding: 6px 10px;
         font-size: 12px;
     }
     .gallery{
@@ -123,8 +187,8 @@
         right: 18%;
     }
     .gallery .g_pics{
-        grid-template-columns: auto;
-        grid-gap: 20px;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
         justify-content: center;
     }
     .gallery .g_pics .pic_item{
@@ -136,12 +200,20 @@
     }
     .gallery .g_pics .pic_item p{
         font-size: 13px;
+        margin-top: 2%;
+    }
+    .gallery .heading form input{
+        width: 80%;
+        border: 1px solid #999; 
     }
     .gallery .g_pics .pic_item button{
         width: 115px;
         height: 35px;
-        line-height: 35px;
+        line-height: 30px;
         font-size: 12px;
+        margin-top: 10%;
+        background: #ffc74a;
+        color: #666;
     }
     .gallery .heading .option1{
         display: block;
@@ -209,114 +281,104 @@
         margin-top: 5px;
     }
 }
-@media all and (max-width: 991px){
-    .navigation .logo img{
-        width: 80%;
+@media only screen and (max-width: 575px){
+    .gallery .g_pics{
+        grid-template-columns: auto;
+        grid-gap: 10px 0;
+        justify-content: center;
     }
     .navigation .menubar ul li{
-        margin-right: 15px;
+        margin-right: 10px;
     }
     .navigation .menubar ul li a{
-        font-size: 16px;
+        font-size: 14px;
     }
-    .navigation .menubar ul li a > i{
-        font-size: 16px;
-    }
-    .banner .overlay .content h2{
-        font-size: 65px;
-    }
-    .banner .overlay .content h3{
-        font-size: 65px;
-    }
-    .banner .overlay .content h4{
-        font-size: 15px;
+    .banner{
+        height: 70vh;
     }
     .banner .overlay .content button{
-        padding: 15px 15px;
+        padding: 9px 8px;
+        font-size: 8px;
     }
-    .gallery .g_pics{
-        grid-template-columns: auto auto;
-        grid-gap: 20px;
+    .banner .overlay .content button:hover{
+        display: none;;
     }
-    .gallery .heading form i{
-        right: 17%;
-    }
-    .gallery .g_pics .pic_item{
-        height: 380px;
-    }
-    .gallery .g_pics .pic_item .img_item{
-        height: 160px;
-    }
-    .city h2{
-        padding-top: 20px;
-    }
-    .city .cnt h3{
-        font-size: 26px;
-        padding-top: 5%;
-    }
-    .city .cnt p{
-        padding-right: 30px;
-        margin: 15px 0;
-        line-height: 25px;
-    }
-    .city .cnt{
+    .gallery .heading .option1{
         display: block;
-        width: 100%;
-    }
-    .city .cnt button{
+        width: 100% ;
         margin: auto;
-        display: block;
-        margin-top: 35px;
+            margin-top: auto;
+        margin-top: 10%;
     }
-    .city .image{
+    .gallery .heading .option2{
         display: block;
         width: 100%;
-        margin: 7% auto;
-        text-align: center;
+        margin: auto;
+        margin-top: auto ;
+        margin-top: 10%;
     }
-    .city .image img{
-        width: 65%;
+    .banner .overlay .content h2{
+        font-size: 30px;
+        margin-bottom: 10%;
     }
-    .city .image:before {
-        width: 66%;
-        bottom: -8%;
-        top: 6%;
-        left: 13%;
+    .banner .overlay .content h4{
+        font-size: 11px;
     }
-    .sign{
-        margin-top: 60px;
+    .banner .overlay .content h3{
+        font-size: 29px;
     }
-    .sign .text h2{
-        font-size: 60px;
+    .gallery{
+        margin-top: 40px;
     }
-    .sign .text button{
-        width: 110px;
-        height: 40px;
-    }
-    .sign .text p{
+    .gallery .heading form input{
+        width: 80%;
+        border: 1px solid #999;
+        height: 35px;
         margin-top: 25px;
     }
-    .footer .contents p{
-        font-size: 16px;
+    .gallery .heading form i{
+        top: 57% ;
+        right: 16%;
     }
-}
-@media all and (max-width: 1199px){
-    .banner{
-        height: 100vh;
+    .gallery .g_pics .pic_item button{
+        line-height: 32px;
+        margin-top: 10%;
+        background: #ffc74a;
+        color: #666;
     }
-    .gallery .g_pics{
-        grid-gap: 30px 30px;
+    .gallery .heading h2{
+        font-size: 24px;
+    }
+    .gallery .heading form input[placeholder]{
+        font-size: 14px;
+    }
+    .gallery .heading .option1 a:hover,.gallery .heading .option2 a:hover{
+        display: none;
+    }
+    .sign .text h2{
+        font-size: 30px;
+    }
+    .sign{
+        margin-top: 40px;
+        height: 280px;
+    }
+    .sign .text button{
+        height: 30px;
     }
     .city .image:before{
-        width: 78%;
-        bottom: -8%;
-        top: 6%;
-        left: 13%;
+        width: 61%;
+    bottom: -10%;
+    top: 8%;
+    left: 11%;
     }
-    .city .cnt h3{
-        padding-top: 5%;
+    .footer{
+        height: 100px;
     }
-    .city .cnt button{
-        margin-top: 20px;
+    .footer .contents img{
+        width: 4%;
+    }
+    .footer .contents p{
+        font-size: 12px;
+        margin-top: 0px;
     }
 }
